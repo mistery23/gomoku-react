@@ -1,0 +1,103 @@
+body{
+      background-color: #2c3e50;
+}
+.text-center{
+  text-align: center;
+}
+.pt40 {padding-top: 40px;}
+.pb40 {padding-bottom: 40px;}
+.pb20 {padding-bottom: 20px;}
+.p0{padding: 0!important}
+
+.board-row{
+  line-height: 0;
+  white-space: nowrap;
+}
+
+.board button{
+  line-height: 1;
+  background: #ee6e73;
+  padding: 0;
+}
+.board button:focus{
+  background: #ee6e73;
+}
+  .board button:active{
+    border-style: outset
+  }
+.playerList{
+  display: flex;
+}
+.playerList p{
+  padding: 10px;
+  border: 2px solid transparent;
+  margin: 0;
+  
+}
+.playerList p.active{
+  border-color: #ee6e73;
+  background: #fff;
+}
+
+.react-confirm-alert-overlay{
+  background: rgba(255, 255, 255, 0.6);
+}
+.d-flex{
+display: flex;
+}
+.align-item-center{
+  align-items: center;
+}
+
+.content-between{
+  justify-content: space-between;
+}
+.react-confirm-alert-body{
+  width: auto;
+  text-align: center;
+  background: #ee6e73;
+  color: #fff;
+  font-size: 16px;
+}
+.react-confirm-alert-body h1{
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.react-confirm-alert-button-group button{
+  border: none;
+  border-radius: 2px;
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  padding: 0 2rem;
+  text-transform: uppercase;
+  vertical-align: middle;
+  -webkit-tap-highlight-color: transparent;
+  text-decoration: none;
+  color: #fff;
+  background-color: #26a69a;
+  text-align: center;
+  letter-spacing: .5px;
+  transition: .2s ease-out;
+  cursor: pointer;
+}
+.card-panel{
+  padding: 10px;
+  margin: 0 0 1rem 0;
+}
+.d-flex {
+  display: flex;
+}
+.content-beetwen{
+  justify-content: space-between;
+}
+.boardWrap{
+  text-align: center;
+}
+.fixed{
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+}
