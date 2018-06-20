@@ -12,4 +12,4 @@ Run `npm start` for a dev server. Navigate to `http://localhost:3000/`. The app 
 
 ## Build
 
-Run `ng run build` to build the project. The build artifacts will be stored in the `build/` directory.
+Run `npm run build` to build the project. The build artifacts will be stored in the `build/` directory.
